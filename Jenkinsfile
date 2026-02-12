@@ -7,16 +7,7 @@ pipeline {
         jdk 'JDK17'
     }
 
-    parameters {
-        string(name: 'ENV', defaultValue: 'qa')
-        string(name: 'HEADLESS', defaultValue: 'true')
-        booleanParam(name: 'REMOTE', defaultValue: false)
-    }
 
-    environment {
-        BROWSERSTACK_USERNAME = credentials('bs-user')
-        BROWSERSTACK_ACCESS_KEY = credentials('bs-key')
-    }
 
     stages {
 
@@ -43,5 +34,6 @@ pipeline {
     }
 
 }
+
 
 
