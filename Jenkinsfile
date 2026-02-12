@@ -42,22 +42,5 @@ pipeline {
         }
     }
 
-    post {
-
-        success {
-            slackSend(
-                channel: '#automation',
-                color: 'good',
-                message: "✅ Build Passed: ${env.BUILD_URL}"
-            )
-        }
-
-        failure {
-            slackSend(
-                channel: '#automation',
-                color: 'danger',
-                message: "❌ Build Failed: ${env.BUILD_URL}"
-            )
-        }
-    }
 }
+
