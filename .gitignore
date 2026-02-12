@@ -1,0 +1,25 @@
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test Reports
+test-output/
+surefire-reports/
+
+# Jenkins workspace
+workspace/

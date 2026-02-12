@@ -1,0 +1,12 @@
+{
+  "productsToOrder": [
+    "Samsung galaxy s6",
+    "Samsung galaxy s7",
+	"Sony xperia z5",
+	"Sony vaio i5"
+  ],
+  "customerDetails": {
+    "firstName": "user1",
+    "cardNo": "123456789"
+  }
+}

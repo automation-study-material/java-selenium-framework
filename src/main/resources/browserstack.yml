@@ -1,0 +1,14 @@
+browserstack:
+  user: nitinpatil_yC3oVN
+  key: 5FfLZmBzroQp649VZyQh
+  hub: https://hub.browserstack.com/wd/hub
+
+capabilities:
+  browserName: chrome
+  browserVersion: latest
+  platformName: Windows 12
+
+options:
+  buildName: Selenium Framework Build
+  sessionName: Demo Test
+  projectName: SeleniumFramework
