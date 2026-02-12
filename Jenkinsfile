@@ -14,7 +14,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-repo/JavaSeleniumWithCiCD.git'
+                    url: 'https://github.com/your-repo/JavaSeleniumWithCiCD.git',
+                    credentialsId: 'github-token'
             }
         }
 
@@ -34,6 +35,7 @@ pipeline {
     }
 
 }
+
 
 
 
