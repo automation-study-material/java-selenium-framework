@@ -29,7 +29,7 @@ pipeline {
 
         stage('Build & Test') {
             steps {
-                sh "mvn clean test -Denv=${params.ENV} -Drun.remote=${params.REMOTE} -Drun.headless=${params.HEADLESS}"
+                sh "mvn clean test "
             }
         }
 
@@ -43,4 +43,5 @@ pipeline {
     }
 
 }
+
 
